@@ -1,0 +1,126 @@
+.bgWhite{
+  background: #ffffff;
+}
+.bgGrey{
+  background: #e7e7e7;
+}
+.heading{
+  text-align: center;
+  font: normal normal 600 34px/42px Montserrat;
+  letter-spacing: 0.07px;
+  color: #121617;
+  text-transform: uppercase;
+  opacity: 1;
+  margin: 25px 0;
+}
+.categoryGrid{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 8px #0000001C;
+  border-radius: 6px;
+  opacity: 1;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.catImgBlock{
+  border-radius: 6px 6px 0px 0px;
+  opacity: 1;
+}
+.catImage{
+  height: 184px;
+  object-fit: cover;
+  width: 100%;
+}
+.catContent{
+  padding: 20px 0;
+
+}
+.catHeading{
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: medium;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #121617;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-bottom: 0;
+}
+.gridNoShadow{
+  margin: 25px 0;
+}
+
+.noShadowHeading{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0px;
+  color: #121617;
+  text-transform: uppercase;
+  opacity: 1;
+  text-align: center;
+}
+.noShadowSubContent{
+  font-weight: medium;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #9E9E9E;
+  opacity: 1;
+  text-align: center;
+}
+.noShadowImg{
+  width: 100%;
+  height: 269px;
+  object-fit: contain;
+}
+.homeSlider{
+  width: 100%;
+  opacity: 0.7;
+  height: 650px;
+  object-fit: cover;
+  backdrop-filter: blur(5px);
+}
+.sliderBlock:before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 10;
+  top: 0;
+}
+.sliderHeading{
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  opacity: 1;
+  font-size: 34px;
+}
+
+@media only screen and (max-width: 575px){
+  .heading{
+    letter-spacing: 0.03px;
+    color: #121617;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  .catHeading{
+    font-size: 13px;
+  }
+  .catImgBlock{
+    height: 85px;
+  }
+  .catImage{
+    height: 85px;
+  }
+  .categoryGrid{
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
